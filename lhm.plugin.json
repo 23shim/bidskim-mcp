@@ -1,0 +1,54 @@
+{
+  "identifier": "bidskim",
+  "name": "BidSkim",
+  "version": "1.0.0",
+  "author": "BidSkim",
+  "authorUrl": "https://bidskim.com",
+  "cloudEndpoint": "https://mcp.bidskim.com/mcp",
+  "homepage": "https://github.com/23shim/bidskim-mcp",
+  "icon": "https://raw.githubusercontent.com/23shim/bidskim-mcp/main/logo-512.png",
+  "description": "UK procurement intelligence: live tenders, contract renewals with incumbents, and buyer/supplier profiles",
+  "tags": ["procurement", "tenders", "uk-government", "contract-renewals", "search", "read-only"],
+  "tools": [
+    {
+      "name": "search_tenders",
+      "description": "Search live and historical UK public-sector tenders by keyword, CPV code, region, value range and deadline.",
+      "inputSchema": { "type": "object", "properties": { "query": { "type": "string" } } }
+    },
+    {
+      "name": "get_tender",
+      "description": "Full detail for one tender notice, including framework and certification context.",
+      "inputSchema": { "type": "object", "properties": { "id": { "type": "string" } }, "required": ["id"] }
+    },
+    {
+      "name": "search_renewals",
+      "description": "Contracts expiring soon: expiry dates, incumbent suppliers, recurrence evidence and buyer contacts.",
+      "inputSchema": { "type": "object", "properties": { "query": { "type": "string" } } }
+    },
+    {
+      "name": "search_organisations",
+      "description": "Find public-sector buyers and suppliers by name.",
+      "inputSchema": { "type": "object", "properties": { "query": { "type": "string" } }, "required": ["query"] }
+    },
+    {
+      "name": "get_buyer",
+      "description": "A buyer's award history, spend patterns and top suppliers.",
+      "inputSchema": { "type": "object", "properties": { "id": { "type": "string" } }, "required": ["id"] }
+    },
+    {
+      "name": "get_supplier",
+      "description": "A supplier's contract wins, buyers served and market footprint.",
+      "inputSchema": { "type": "object", "properties": { "id": { "type": "string" } }, "required": ["id"] }
+    },
+    {
+      "name": "semantic_search",
+      "description": "Meaning-based search over live tenders — find opportunities like a described capability.",
+      "inputSchema": { "type": "object", "properties": { "query": { "type": "string" } }, "required": ["query"] }
+    },
+    {
+      "name": "my_pipeline",
+      "description": "The signed-in user's saved tenders and matches on BidSkim.",
+      "inputSchema": { "type": "object", "properties": {} }
+    }
+  ]
+}

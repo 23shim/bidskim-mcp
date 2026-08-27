@@ -2,7 +2,7 @@
   <img src="logo-512.png" alt="BidSkim" width="120" height="120">
 </p>
 
-<h1 align="center">BidSkim MCP Server</h1>
+<h1 align="center">BidSkim MCP Server &mdash; UK Tenders, Contract Renewals &amp; Procurement Intelligence</h1>
 
 <p align="center">
   UK procurement intelligence for AI assistants — live tenders, contract renewals with incumbents, and buyer/supplier profiles.

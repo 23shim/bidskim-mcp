@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.bidskim/mcp",
+  "description": "UK procurement intelligence: live tenders, renewals with incumbents, buyer and supplier profiles.",
+  "status": "active",
+  "version": "1.0.0",
+  "websiteUrl": "https://bidskim.com/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bidskim.com/mcp"
+    }
+  ]
+}

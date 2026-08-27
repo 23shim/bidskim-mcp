@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="https://smithery.ai/servers/bidskim/bidskim"><img src="https://smithery.ai/badge/bidskim/bidskim" alt="smithery badge"></a>
+</p>
+
+<p align="center">
   <a href="https://bidskim.com/mcp">Docs</a> ·
   <a href="https://bidskim.com">bidskim.com</a> ·
   <a href="https://registry.modelcontextprotocol.io">Official MCP registry: <code>com.bidskim/mcp</code></a>

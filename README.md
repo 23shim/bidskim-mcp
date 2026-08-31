@@ -60,6 +60,12 @@ Full per-client walkthroughs: **[bidskim.com/mcp](https://bidskim.com/mcp)**
 claude mcp add -t http bidskim https://mcp.bidskim.com/mcp
 ```
 
+Or install this repository as a **Claude Code plugin** — it connects the server and adds three procurement workflow skills (`renewal-radar`, `tender-scan`, `buyer-brief`):
+
+```bash
+claude plugin install bidskim@<marketplace>
+```
+
 **Claude (web/desktop)** — Settings → Connectors → Add custom connector → `https://mcp.bidskim.com/mcp`
 
 **Cursor / VS Code / Windsurf / Cline** — add a remote MCP server with URL `https://mcp.bidskim.com/mcp`; the OAuth sign-in opens in your browser. Signed-in BidSkim users connect with one approval click.

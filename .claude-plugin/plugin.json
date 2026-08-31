@@ -1,0 +1,25 @@
+{
+  "name": "bidskim",
+  "displayName": "BidSkim - UK Tenders & Contract Renewals",
+  "version": "1.0.0",
+  "description": "UK public procurement intelligence: search live UK government tenders, track contract renewals with incumbent suppliers and expiry dates, and research public-sector buyers and suppliers. Connects to BidSkim's hosted MCP server (OAuth sign-in; BidSkim Predict plan required).",
+  "author": {
+    "name": "BidSkim",
+    "email": "hello@bidskim.com",
+    "url": "https://bidskim.com"
+  },
+  "homepage": "https://bidskim.com/mcp",
+  "repository": "https://github.com/23shim/bidskim-mcp",
+  "license": "MIT",
+  "keywords": [
+    "procurement",
+    "uk-tenders",
+    "tenders",
+    "contract-renewals",
+    "government-contracts",
+    "contracts-finder",
+    "find-a-tender",
+    "public-sector",
+    "bid-management"
+  ]
+}

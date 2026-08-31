@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bidskim": {
+      "type": "http",
+      "url": "https://mcp.bidskim.com/mcp"
+    }
+  }
+}

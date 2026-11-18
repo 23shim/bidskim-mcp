@@ -1,8 +1,8 @@
 {
   "name": "bidskim",
   "displayName": "BidSkim - UK Tenders & Contract Renewals",
-  "version": "1.0.0",
-  "description": "UK public procurement intelligence: search live UK government tenders from Find a Tender, Contracts Finder, Public Contracts Scotland and Sell2Wales; track contract renewals with incumbent suppliers and expiry dates; and research public-sector buyers and suppliers. Adds three workflow skills for building a renewal pipeline, scanning tenders that fit what you sell, and briefing a buyer before you bid. Connects to BidSkim's hosted MCP server (OAuth sign-in; BidSkim Predict plan required).",
+  "version": "1.1.0",
+  "description": "UK public procurement intelligence: search live UK government tenders from Find a Tender, Contracts Finder, Public Contracts Scotland and Sell2Wales; track contract renewals with incumbent suppliers and expiry dates; see who buys and who wins each of about 1,700 services; find similar past contracts and who bid; look up framework agreements, their suppliers and call-offs; and research public-sector buyers and suppliers. Adds three workflow skills for building a renewal pipeline, scanning tenders that fit what you sell, and briefing a buyer before you bid. Connects to BidSkim's hosted MCP server (OAuth sign-in; BidSkim Predict plan required).",
   "author": {
     "name": "BidSkim",
     "email": "hello@bidskim.com",
@@ -20,6 +20,9 @@
     "contracts-finder",
     "find-a-tender",
     "public-sector",
-    "bid-management"
+    "bid-management",
+    "frameworks",
+    "dps",
+    "incumbents"
   ]
 }

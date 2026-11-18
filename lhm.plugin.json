@@ -7,8 +7,8 @@
   "cloudEndpoint": "https://mcp.bidskim.com/mcp",
   "homepage": "https://github.com/23shim/bidskim-mcp",
   "icon": "https://raw.githubusercontent.com/23shim/bidskim-mcp/main/logo-512.png",
-  "description": "UK procurement intelligence: live tenders, contract renewals with incumbents, and buyer/supplier profiles",
-  "tags": ["procurement", "tenders", "uk-government", "contract-renewals", "search", "read-only"],
+  "description": "UK procurement intelligence: live tenders, contract renewals with incumbents, service markets, frameworks, and buyer/supplier profiles",
+  "tags": ["procurement", "tenders", "uk-government", "contract-renewals", "frameworks", "search", "read-only"],
   "tools": [
     {
       "name": "search_tenders",
@@ -48,6 +48,36 @@
     {
       "name": "my_pipeline",
       "description": "The signed-in user's saved tenders and matches on BidSkim.",
+      "inputSchema": { "type": "object", "properties": {} }
+    },
+    {
+      "name": "search_services",
+      "description": "Find which of about 1,700 services a kind of work belongs to, with its size over the last 12 months.",
+      "inputSchema": { "type": "object", "properties": { "query": { "type": "string" } } }
+    },
+    {
+      "name": "get_service_market",
+      "description": "The market for one service: who buys it, who wins it, totals, open tenders and contracts ending in the next 12 months.",
+      "inputSchema": { "type": "object", "properties": { "service": { "type": "string" } }, "required": ["service"] }
+    },
+    {
+      "name": "similar_contracts",
+      "description": "For an open tender: past awards judged to be the same job, with winner, value and named bidders where published.",
+      "inputSchema": { "type": "object", "properties": { "tender_id": { "type": "string" } }, "required": ["tender_id"] }
+    },
+    {
+      "name": "search_frameworks",
+      "description": "Search UK framework agreements, dynamic purchasing systems and dynamic markets by service, supplier, operator or end date.",
+      "inputSchema": { "type": "object", "properties": { "query": { "type": "string" } } }
+    },
+    {
+      "name": "get_framework",
+      "description": "One framework agreement: who runs it, its term, the suppliers on it and the contracts called off under it.",
+      "inputSchema": { "type": "object", "properties": { "framework_id": { "type": "string" } }, "required": ["framework_id"] }
+    },
+    {
+      "name": "my_profile",
+      "description": "The signed-in user's company profile and the services it follows on BidSkim.",
       "inputSchema": { "type": "object", "properties": {} }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "identifier": "23shim-bidskim-mcp",
   "name": "BidSkim - UK Tenders & Contract Renewals",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "author": "BidSkim",
   "authorUrl": "https://bidskim.com",
   "cloudEndpoint": "https://mcp.bidskim.com/mcp",

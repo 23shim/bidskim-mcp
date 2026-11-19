@@ -9,10 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://smithery.ai/servers/bidskim/bidskim"><img src="https://smithery.ai/badge/bidskim/bidskim" alt="smithery badge"></a>
-</p>
-
-<p align="center">
   <a href="https://bidskim.com/mcp">Docs</a> ·
   <a href="https://bidskim.com">bidskim.com</a> ·
   <a href="https://registry.modelcontextprotocol.io">Official MCP registry: <code>com.bidskim/mcp</code></a>
@@ -26,7 +22,7 @@ BidSkim's official [Model Context Protocol](https://modelcontextprotocol.io) ser
 Endpoint:   https://mcp.bidskim.com/mcp
 Transport:  Streamable HTTP (stateless, MCP spec 2026-07-28, with fallback for 2025-era clients)
 Auth:       OAuth 2.1 (RFC 9728 discovery) or API keys minted in BidSkim Settings
-Access:     read-only, included with the BidSkim Predict plan
+Access:     free BidSkim account: your first 100 tenders free
 ```
 
 ## What it does
@@ -99,7 +95,9 @@ claude plugin install bidskim@<marketplace>
 
 ## Access
 
-MCP access is included with the [BidSkim Predict plan](https://bidskim.com/pricing). All tools are read-only: your assistant can search and read, never change anything. Rate limits and daily budgets apply.
+Connect with a free BidSkim account and **your first 100 tenders are free**, then 25 a month, with a market summary for any service. Monitor takes the limit off tender search; Predict opens all fourteen tools, including renewals, buyer and supplier profiles, similar contracts and frameworks. Plans: [bidskim.com/pricing](https://bidskim.com/pricing).
+
+On their own, ChatGPT and Claude search a few web pages: they miss tenders on portals behind a login and renewals that have not been tendered yet. Connected to BidSkim, they search every UK public sector notice from the last five years. Setup guide: [bidskim.com/mcp](https://bidskim.com/mcp)
 
 ## Support
 
